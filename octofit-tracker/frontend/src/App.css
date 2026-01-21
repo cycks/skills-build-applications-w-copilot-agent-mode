@@ -1,0 +1,112 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.1);
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar .navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+.card {
+  background: #fff9fb;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(131,56,236,0.08);
+}
+
+.card-title, h1, h2, h3, h4, h5 {
+  color: #8338ec;
+  font-weight: 700;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  border: none;
+  border-radius: 2rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary:hover {
+  background: #4361ee;
+  color: #fff;
+}
+.btn-success:hover {
+  background: #06d6a0;
+  color: #fff;
+}
+.btn-info:hover {
+  background: #00b4d8;
+  color: #fff;
+}
+.btn-warning:hover {
+  background: #ffd166;
+  color: #22223b;
+}
+.btn-danger:hover {
+  background: #ef233c;
+  color: #fff;
+}
+
+a, .App-link {
+  color: #3a86ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #8338ec;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table th {
+  background: #3a86ff;
+  color: #fff;
+  font-weight: 600;
+}
+.table-primary th {
+  background: #3a86ff !important;
+}
+.table-success th {
+  background: #06d6a0 !important;
+}
+.table-info th {
+  background: #00b4d8 !important;
+}
+.table-warning th {
+  background: #ffd166 !important;
+  color: #22223b !important;
+}
+.table-danger th {
+  background: #ef233c !important;
+}
+
+.alert-info {
+  background: #e0eafc;
+  color: #3a86ff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.octofit-logo {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
